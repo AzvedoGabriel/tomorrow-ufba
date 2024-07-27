@@ -6,8 +6,8 @@ public class Credito extends Operacao{
         super(valor);
     }
 
-    @Override
-    public void operar(double valor) {
-
+    public double operar() {
+        return + valor;
     }
+
 }

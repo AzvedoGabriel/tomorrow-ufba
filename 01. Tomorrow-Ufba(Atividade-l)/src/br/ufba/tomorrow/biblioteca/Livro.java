@@ -21,6 +21,6 @@ public class Livro extends Publicacao{
 
     @Override
     public void imprimirDados() {
-        System.out.printf("Edicao: %s, Isbn: %d", edicao, isbn);
+        System.out.printf("Edicao: %s\nIsbn: %d\n", edicao, isbn);
     }
 }

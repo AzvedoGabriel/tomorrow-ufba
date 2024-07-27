@@ -34,7 +34,7 @@ public class Filme extends Publicacao{
 
     @Override
     public void imprimirDados() {
-        System.out.println("Diretor: " + diretor + " Ator Principal: "
-                + atorPrincipal + " Sinopse " + sinopse + " Tempo de Duração: " + tempoDuracao);
+        System.out.println("Diretor: \n" + diretor + "\nAtor Principal: \n"
+                + atorPrincipal + "\nSinopse \n" + sinopse + "\nTempo de Duração: \n" + tempoDuracao);
     }
 }

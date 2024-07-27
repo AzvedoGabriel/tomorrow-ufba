@@ -7,6 +7,6 @@ public class Debito extends Operacao{
     }
 
     public double operar() {
-        return -valor;
+        return - valor;
     }
 }

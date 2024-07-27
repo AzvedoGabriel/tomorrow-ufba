@@ -14,5 +14,9 @@ public class ProgramaBiblioteca {
         publicacaos[0] = livro;
         publicacaos[1] = filme;
 
+        for (Publicacao publicacao : publicacaos) {
+            publicacao.imprimirDados();
+        }
+
     }
 }
